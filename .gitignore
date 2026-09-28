@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+
+.vscode/
+.env
+.ipynb_checkpoints/
+
+IEEE_CIS_Fraud_Detection_Complete.csv
+IEEE_CIS_Fraud_Detection_Cleaned_Preprocessed.csv
