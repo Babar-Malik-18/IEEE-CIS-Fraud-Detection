@@ -1,9 +1,40 @@
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+*.egg-info/
 
+# Data & Large artifacts (exceeding GitHub 100MB limit)
+data/raw_ieee_kaggle/
+ieee-fraud-detection/
+data/IEEE_CIS_Fraud_Detection_*.csv
+data/fraud_prediction_results.csv
+backend/models/legacy/
+legacy_streamlit_webapp/*.pkl
+
+# Ignore large CSVs by default, but allow sample files
+data/*.csv
+!data/sample_inputs.csv
+!data/test_fraud_transaction.csv
+!data/test_legitimate_transaction.csv
+!data/test_transaction.csv
+
+# Node & Angular
+frontend/node_modules/
+frontend/.angular/
+frontend/dist/
+frontend/.cache/
+
+# IDE & OS
 .vscode/
+.idea/
+.DS_Store
+Thumbs.db
 .env
-.ipynb_checkpoints/
-
-IEEE_CIS_Fraud_Detection_Complete.csv
-IEEE_CIS_Fraud_Detection_Cleaned_Preprocessed.csv

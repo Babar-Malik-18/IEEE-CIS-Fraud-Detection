@@ -1,0 +1,7 @@
+Model,Accuracy,Precision,Recall,F1_Score,ROC_AUC,Source
+Random Forest (Replicated),93.66,33.32,81.08,47.23,95.47,Replication (IEEE-CIS Real Data)
+Random Forest (Paper Table 7),88.0,85.0,86.0,85.5,89.0,Paper Table 7
+XGBoost (Replicated),88.63,21.36,83.81,34.04,94.29,Replication (IEEE-CIS Real Data)
+Logistic Regression (Replicated),82.78,13.81,74.86,23.32,86.96,Replication (IEEE-CIS Real Data)
+Logistic Regression (Paper Table 7),80.0,77.0,75.0,76.0,81.0,Paper Table 7
+Paper Proposed Model (IEEE-CIS Table 11),93.6,87.5,82.0,84.7,97.0,Paper Table 11 (Real IEEE-CIS)
